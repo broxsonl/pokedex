@@ -1,16 +1,27 @@
 {
   "name": "pokedex",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple app to display 5 Pokemon at once",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.1.1",
-    "superagent": "^3.3.2"
-  }
+    "superagent": "^3.3.2",
+    "express": "^4.13.3",
+    "express-request-proxy": "^1.0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/broxsonl/pokedex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/broxsonl/pokedex/issues"
+  },
+  "homepage": "https://github.com/broxsonl/pokedex#readme"
 }
