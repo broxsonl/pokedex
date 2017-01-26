@@ -11,3 +11,7 @@ td, th {
   table-layout: auto;
   border: solid;
 }
+
+.prev {
+  display: none;
+}
