@@ -2,6 +2,12 @@ body {
   background-color: darkgrey;
 }
 
-header .header {
+header {
   background-color: yellow;
+}
+
+td, th {
+  padding: 2px;
+  table-layout: auto;
+  border: solid;
 }
