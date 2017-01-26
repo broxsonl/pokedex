@@ -1,17 +1,69 @@
 body {
   background-color: darkgrey;
+  /*display: flex;*/
+}
+
+.container {
+  position: absolute;
+  width: 50%;
+  height: 37%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-radius: 5%;
 }
 
 header {
   background-color: yellow;
 }
 
+footer {
+  bottom: 0;
+  position: absolute;
+  background-color: yellow;
+  width: 100%;
+  height: 16%;
+  align-items: center;
+  display: flex;
+}
+
+#pokedex-table {
+  border: solid 2px lightgrey;
+}
+
 td, th {
+  width: 100px;
   padding: 2px;
   table-layout: auto;
-  border: solid;
+}
+
+tr:first-child {
+  background-color: lightgrey;
+}
+
+th:first-child {
+  width: 130px;
+}
+
+td {
+  padding-left: 6%;
+}
+
+tr {
+  border-bottom: solid 1px lightgrey;
 }
 
 .prev {
   display: none;
+  left: 5%;
+  font-weight: bold;
+}
+
+.next {
+  right: 0;
+  float: right;
+  font-weight: bold;
 }
